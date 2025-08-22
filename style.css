@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: sans-serif; 
+    text-align: center; 
+    background-color: rgb(18, 18, 20);
+    color: white;
+}
+
+main{
+    padding: 10px 15px;
+}
+
+#title {
+    color: royalblue; 
+}
+
+p {
+    font-size: 1.2em;
+}
+
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.button{
+    cursor: pointer;
+    width: 200px;
+    font-size: 25px;
+    margin: 0 auto;
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.mini-button{
+    cursor: pointer;
+    width: 50px;
+    font-size: 25px;
+    margin: 0 auto;
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+}
+
+#stages p {
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+}
+
+input {
+    color: black;
+}
+
+#slide-button{
+    display: flex;
+    bottom: 0;
+}
+
+#left{
+    left: 0;
+}
+
+#right{
+    right: 0;
+}
+
+#next{
+    bottom: 0;
+    right: 0;
+}
+
+#select{
+    background-color: rgba(65, 105, 225, 0.459);
+    padding: 0px;
+    align-items: center;
+    padding: 25px;
+}
+
+#select p {
+    margin: 0;
+}
