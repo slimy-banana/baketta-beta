@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>baketta!</title>
-    <link rel="stylesheet" href="/../../style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <div id="header"></div>
     <div id="select">
         <p>言語を選択</p>
         <ul>
-            <li onclick="changeLang('jh')"><img src="/../../flag_tl.svg" alt="日変語"></li>
-            <li onclick="changeLang('tel');"><img src="/../../flag_tel (1).svg" alt="テルン語"></li>
+            <li onclick="changeLang('jh')"><img src="../flag_tl.svg" alt="日変語"></li>
+            <li onclick="changeLang('tel');"><img src="../flag_tel (1).svg" alt="テルン語"></li>
         </ul>
     </div>
     <main>
         <div id="content">読み込み中</div>
     </main>
-    <script src="/../../script.js"></script>
+    <script src="../script.js"></script>
     <script>
         var stage_lang = localStorage.getItem("stage_lang") || "Undecided";
 
         // HTMLを読み込む関数
         function loadStage() {
-        const url = "/../../stage_" + stage_lang + ".html";
+        const url = "../stage_" + stage_lang + ".html";
         fetch(url)
             .then(res => {
                 if (!res.ok) throw new Error("読み込み失敗: " + url);
