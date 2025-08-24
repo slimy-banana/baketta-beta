@@ -18,7 +18,7 @@ function right(){
         megathink = megathink + 1;
         show();
     } else{
-        window.location.replace("/stage/tel/question/1.html")
+        window.location.replace("/../../stage/tel/question/1.html")
     }
 }
 
